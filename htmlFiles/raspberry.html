@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cooking Blog with Patrick, Maya and Erin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+
+  <script src = "../jsFiles/javarecipe.js"></script>
+  <link rel="stylesheet" href = "../main.css">
+
+</head>
+<body>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Cooking Blog</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="../htmlFiles/gallery.html">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Tres Chefes</h1>      
+    <p>Welcome to our cooking blog! </p>
+  </div>
+</div>
+
+<main> 
+    <div class="hero-unit">
+        <h1><b>Raspberry Cheesecake</b></h1>
+    </div>
+
+<!--Intro-->
+    <div class="row">
+        <div class="col-md-5">
+            <img src ="../imgFiles/raspberryCheesecake.jpeg" alt="Bagels" height="900" width = "700">
+          </div> 
+
+        <div class="col col-md-5" >
+          <img src="../imgFiles/whisk-silhouette-1.png"  width="200px" height="150px" class="center-block img-fluid" /></a>
+          <p class="text-center" style="    text-transform: capitalize;
+          font-size: .85em;
+          font-weight: 600;
+          line-height: 1.5em;
+          color: #212121;
+          text-decoration: none;">PREP: 35 min</p>
+          </div>
+      
+        <div class=" col col-md-5">
+          <img src="../imgFiles/timer.png" width="200px" height="150px" class="center-block img-fluid" /></a>
+          <p class="text-center" style="    text-transform: capitalize;
+          font-size: .85em;
+          font-weight: 600;
+          line-height: 1.5em;
+          color: #212121;
+          text-decoration: none;">Cook: 2 hours </p>
+          </div>
+      
+        <div class="col-md-auto col-md-5">
+          <img src="../imgFiles/serving.png" width="200px" height="150px" data-modal="#modal-youtube" class="center-block img-fluid" style="cursor: pointer; " />
+          <p class="text-center" style="    text-transform: capitalize;
+          font-size: .85em;
+          font-weight: 600;
+          line-height: 1.5em;
+          color: #212121;
+          text-decoration: none;"> Servings: 8 Slices </p>
+        </div>
+
+        <div class=" col col-md-5">
+          <img src="../imgFiles/difficulty.jpg" width="200px" height="150px" class="center-block img-fluid" /></a>
+          <p class="text-center" style="    text-transform: capitalize;
+        font-size: .85em;
+        font-weight: 600;
+        line-height: 1.5em;
+        color: #212121;
+        text-decoration: none;">Rating: 5/5</p>
+        </div>
+    </div>
+
+<!--Ingredients-->
+    <div class="hero-unit">
+      <h2><b>Ingredients</b></h2>
+
+      <h3>
+        <p><b><i>Crust</i></b></p>
+            <ul>
+              <li>16 sheets Graham crackers </li>
+              <li>12 tbsp Unsalted butter</li>
+              <li>2 tbsp Sugar</li>
+              <li>1/2 tsp Salt</li>
+
+            </ul>
+          <hr>
+          <p><b><i>Cheesecake</i></b></p>
+            <ul>
+              <li>20 oz Cream cheese </li>
+              <li>1/2 cup Sugar</li>
+              <li>1 tbsp Corn starch</li>
+              <li>1/4 tsp Salt</li>
+              <li>1/4 cup Sour cream</li>
+              <li>2 tsp Vanilla extract</li>
+              <li>2 Eggs </li>
+            </ul>
+          </hr>
+          <hr>
+          <p><b><i>Whipped Cream</i></b></p>
+            <ul>
+              <li>1 1/2 cups Heavy whipping cream </li>
+              <li>Powdered sugarr</li>
+              <li>1/4 tsp Salt</li>
+          </ul>
+          </hr>
+          <hr>
+          <p><b><i>Raspberry Jam</i></b></p>
+            <ul>
+              <li>4 cups Raspberries</li>
+              <li>1 cup Sugar</li>
+              <li>2 tbsp Lemon juice </li>
+            </ul>
+         </hr>
+         <hr>
+        <p><b><i>Toppings</i></b></p>
+            <ul>
+              <li>Zest of half a lemon</li>
+              <li>Fresh mint leaves for decoration</li>
+            </ul>
+          </hr>
+
+      </h3>
+    </div>
+
+<!--Instructions-->
+    <div class="hero-unit">
+      <h2><b>Instructions</b></h2>
+
+      <h3>
+        <p><b><i>Crust</i></b></p>
+        <ol>
+          <li>In a large mixing bowl using a hand or stand mixer with the whisk attachment, whisk your cream cheese until smooth. </li>
+          <li>Add in your sugar, salt, and cornstarch. Whisk until smooth.</li>
+          <li>Scrape down your bowl, and whisk in your sour cream and vanilla.</li>
+          <li>Finally, Whisk in your eggs one at a time. Whisk until combined, don't over-mix your batter!</li>
+          <li>Scrape down your bowl once more to make sure everything is well combined.</li>
+          <li>Pour your batter into your cooled crust and spread evenly.</li>
+        </ol>
+        <p>&nbsp</p>
+        <hr>
+        <p><b><i>Waterbath, Option One</i></b></p>
+        <ol>
+            <li>Bring a kettle or saucepan of water to a boil.</li>
+            <li>Wrap springform pan in two layers of heavy-duty aluminum foil.</li>
+            <li>Add, and bake your crust per instructions. Add cheesecake filling once cool.</li>
+            <li>Take your unbaked cheesecake and place in a roasting pan. Transfer your roasting pan to an oven rack.</li>
+            <li>Pour your boiling water into the roasting pan until it reaches about halfway up the sides of the springform pan.</li>
+        </ol>
+        </hr>
+
+        <p>&nbsp</p>
+        <hr>
+        <p><b><i>Waterbath, Option Two</i></b></p>
+        <ol>
+            <li>Bring a kettle or saucepan of water to a boil.</li>
+            <li>Transfer a roasting pan to the bottom rack of your oven.</li>
+            <li>Transfer the unbaked cheesecake to the middle rack of your oven, just above the roast pan.</li>
+            <li>Carefully pour the boiling water into the roasting pan.</li>
+        </ol>
+        </hr>
+
+        <p>&nbsp</p>
+        <hr>
+        <p><b><i>Bake</i></b></p>
+        <ol>
+            <li>Shut the oven door as soon as you carefully pour the boiling water in your roast pan. We want to keep as much steam in the oven as possible.</li>
+            <li>Bake at 350°f for 60-75 minutes until your cheesecake is slightly puffed and golden. The center of your cheesecake will have a slight jiggle when nudged.</li>
+            <li>Allow to cool at room temp for two hours.</li>
+            <li>After two hours, wrap with saran wrap, and pop your cheesecake in the fridge overnight.</li>
+            <li>After sitting in the fridge overnight, it should be quite easy to remove your cheesecake from the bottom of your springform pan.</li>
+            <li>Very Gently, wiggle a butter knife between the bottom of your pan and the cheesecake to lift the crust a bit. Then gently lift your cheesecake off of your pan.</li>
+        </ol>
+        </hr>
+
+        <p>&nbsp</p>
+        <hr>
+        <p><b><i>Toppings</i></b></p>
+        <ol>
+            <li>The following morning, prepare your toppings.</li>
+            <li>Whipped cream: In a mixing bowl with either a stand or hand mixer, whip your whipped cream mixture until soft peaks form.</li>
+            <li>Jam: In a pot, add your raspberries, sugar and lemon juice. Bring to a boil while continuously mixing with a wooden spoon. Simmer for 20 minutes while continuously mixing to ensure that your jam doesn't burn on the bottom of your pot.</li>
+            <li>Plop your homemade whipped cream on the top of your cheesecake. Spread evenly.</li>
+            <li>Spread on a hefty amount of raspberry jam once cooled.</li>
+            <li>Decorate with some fresh raspberries & top with lemon zest.</li>
+            <li>Slice into about 8-10 pieces, and you're done!</li>
+        </ol>
+      </hr>
+
+      </h3>
+    </div>
+
+    <div class="hero-unit">
+      <h2>Enjoy!</h2>
+<!--Share-->
+<div class="mainbox">
+    <input type="checkbox" id="check">
+    <label for="check">Share</label>
+    <div class="media-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+
+<!--Comment-->
+      <div class="hero-unit">
+        <section id="app">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div class="comment">
+                <p v-for="items in item" v-text="items"></p>
+                  </div><!--End Comment-->
+                  </div><!--End col -->
+                  </div><!-- End row -->
+              <div class="row">
+                <div class="col-6">
+              <textarea type="text" class="input" placeholder="Name" v-model="newItem" @keyup.enter="addItem()"></textarea>
+              <textarea type="text" class="input" placeholder="Email" v-model="newItem" @keyup.enter="addItem()"></textarea>
+              <textarea type="text" class="input" placeholder="Comment" v-model="newItem" @keyup.enter="addItem()" ></textarea>
+              <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                </div><!-- End col -->
+              </div><!--End Row -->
+            </div><!--End Container -->
+          </section><!-- end App -->
+
+
+  
+</main>
+
+<footer class="container-fluid text-center">
+  <p>Recipe and Image Credits go to Mariam (Her Food Influencer Handle is Mariyum)</p>
+  <a target="_blank" href="https://mxriyum.com/">Click here to look at her blog!</a>
+  <br>
+  <br>
+  <p>Note: We are portraying fictional cooking students. We are actually three computer science students in the Advanced Web Design class.</p>
+</footer>
+
+</body>
+</html>
