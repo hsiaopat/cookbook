@@ -7,29 +7,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-
-    .thumbnail {
-        object-fit: cover;
-        width: auto;
-        height: 200px;
-    }
-  </style>
+  <link rel="stylesheet" href="../cssFiles/pattyhsiao.css">
 </head>
 <body>
 
-    <!-- Navigation bar -->
+<!-- Navigation bar -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -45,7 +27,9 @@
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Recipes</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="../htmlFiles/contact.html">Contact</a></li>
+        <li><a href="../htmlFiles/gallery.html">Gallery</a></li>
+       <!-- <li><a href="#">Contact</a></li>-->
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -61,54 +45,83 @@
   </div>
 </div>
 
-<!--Gallery portion-->
-<div class="container bg-3 text-center">    
-  <h3>Gallery</h3>
-  <h4>Head to the Recipes tab to view all recipes!</h4><br>
-  <div class="row">
-    <div class="col-sm-3">
-      <img src="../imgFiles/crumblCookie.jpeg" class="thumbnail" style="width:100%" alt="Image">
-      <a target="_blank" href="../htmlFiles/index.html">Crumbl Snickerdoodle Cupcake Cookie</a>
-    </div>
-    <div class="col-sm-3">
-        <img src="../imgFiles/pumpkinSnickerdoodle.jpeg" class="thumbnail" style="width:100%" alt="Image">
-        <a target="_blank" href="../htmlFiles/index.html">Pumpkin Snickerdoodles</a>
-      </div>
-    <div class="col-sm-3"> 
-      <img src="../imgFiles/cheeseFatayer.jpeg" class="thumbnail" style="width:100%" alt="Image">
-      <a target="_blank" href="../htmlFiles/index.html">Cheese Fatayer</a>
-    </div>
-    <div class="col-sm-3"> 
-      <img src="../imgFiles/everythingBagel.jpeg" class="thumbnail" style="width:100%" alt="Image">
-      <a target="_blank" href="../htmlFiles/index.html">Homemade Everything Bagel</a>
-    </div>
-  </div>
-</div><br>
 
-<div class="container bg-3 text-center">    
+<!--Intro-->
+<br>
+<div class="container text-center">
+    <h1>Who Are We?</h1> <br>     
+    <p>We are three third-year students studying at the Culinary Institute of America in New York City! Our love for food began at an early age, with all of us starting to help our parents cook back in elementary school. As the years progressed, we became more and more enchanted with the magic that comes alive in the kitchen when food is being prepared. Now, as we learn  all types of new techniques in school and are exposed to an incredibly diverse cuisine in the Big Apple, we've been inspired to start a food blog of our own. Here, we will share some of our favorite recipes, restaurants, and more. Join us on the ride! </p>
+</div>
+
+<!--Erin's Intro-->
+<div class="container my-5"style="border: 10px solid #eee; margin: 100px">
   <div class="row">
-    <div class="col-sm-3">
-      <img src="../imgFiles/raspberryCheesecake.jpeg" class="thumbnail" style="width:100%" alt="Image">
-      <a target="_blank" href="../htmlFiles/index.html">Raspberry Cheesecake</a>
+    <div class="col-lg-6">
+      <img class="img-fluid shadow" src="https://via.placeholder.com/284x252" />
     </div>
-    <div class="col-sm-3"> 
-      <img src="../imgFiles/walnutKatayif.jpeg" class="thumbnail" style="width:100%" alt="Image">
-      <a target="_blank" href="../htmlFiles/index.html">Walnut Katayif</a>
+    <div class="col-lg-6">
+      <div class="p-5 mt-4">
+        <h3 class="display-4">Erin Donaher</h3>
+        <p class="lead">"Baking is my Passion"</p>
+        <ul class = "list-unstyled">
+          <li><b>Major:</b> Baking and Pastry Arts </li>
+          <li><b>Favorite food:</b> Spaghetti and Meatballs </li>
+          <li><b>Hometown:</b> Philadelphia, PA, USA </li>
+          <li><b>Best cooking tip:</b> "Taste along the way" </li>
+        </ul>  
+      </div>
     </div>
-    <div class="col-sm-3"> 
-      <img src="../imgFiles/chocolateCake.jpeg" class="thumbnail" style="width:100%" alt="Image">
-      <a target="_blank" href="../htmlFiles/index.html">The Best Chocolate Cake</a>
-    </div>
-    <div class="col-sm-3"> 
-        <img src="../imgFiles/potatoMash.png" class="thumbnail" style="width:100%" alt="Image">
-        <a target="_blank" href="../htmlFiles/index.html">Sweet Potato Mash w/ a Garlic Butter Drizzle</a>
+  </div>
+</div>
+
+
+
+  <div class="container my-5"style="border: 10px solid #eee; margin: 100px">
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid shadow" src="../imgFiles/patrick.JPG" />
+      </div>
+      <div class="col-sm-6">
+        <div class="p-5 mt-4">
+            <h3 class="display-4">Patrick Hsiao</h3>
+            <p class="lead">"Cooking is my Passion"</p>
+            <ul class = "list-unstyled">
+                <li><b>Major:</b> Professional Cooking </li>
+                <li><b>Favorite food:</b> Sukiyaki </li>
+                <li><b>Hometown:</b> Chicago, IL, USA </li>
+                <li><b>Best cooking tip:</b> "Clean as you cook" </li>
+            </ul>  
+        </div>
       </div>
   </div>
-</div><br><br>
+  </div>
+
+  <div class="container my-5"style="border: 10px solid #eee; margin: 100px">
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-fluid shadow" src="../imgFiles/maya.JPG" />
+      </div>
+      <div class="col-lg-6">
+        <div class="p-5 mt-4">
+            <h3 class="display-4">Maya Kuzak</h3>
+            <p class="lead">"Sautéing is my Passion"</p>
+            <ul class = "list-unstyled">
+                <li><b>Major:</b> Culinary Arts </li>
+                <li><b>Favorite food:</b> Strawberry Milkshake </li>
+                <li><b>Hometown:</b> Chicago, IL, USA </li>
+                <li><b>Best cooking tip:</b> "Always add a little salt to your sweets and a little sugar to your savory foods!" </li>
+            </ul>  
+        </div>
+      </div>
+    </div>
+  </div>
 
 <footer class="container-fluid text-center">
   <p>Recipe and Image Credits go to Mariam (Her Food Influencer Handle is Mariyum)</p>
   <a target="_blank" href="https://mxriyum.com/">Click here to look at her blog!</a>
+  <br>
+  <br>
+  <p>Note: We are portraying fictional cooking students. We are actually three computer science students in the Advanced Web Design class.</p>
 </footer>
 
 </body>
