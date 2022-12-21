@@ -9,8 +9,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 
-  <script src = "../jsFiles/javarecipe.js"></script>
-  <link rel="stylesheet" href = "../main.css">
+  <script src = "../javascript/javarecipe.js"></script>
+  <link rel="stylesheet" href = "../cssFiles/main.css">
 
 </head>
 <body>
@@ -24,17 +24,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Cooking Blog</a>
+      <a class="navbar-brand" href="../htmlFiles/index.html">Cooking Blog</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="../htmlFiles/gallery.html">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="../htmlFiles/index.html">Home</a></li>
+        <li class="active"><a href="../htmlFiles/gallery.html">Recipes</a></li>
+        <li><a href="../htmlFiles/contact.html">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="../htmlFiles/loginSignupForm.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
@@ -60,42 +59,22 @@
 
         <div class="col col-md-5" >
           <img src="../imgFiles/whisk-silhouette-1.png"  width="200px" height="150px" class="center-block img-fluid" /></a>
-          <p class="text-center" style="    text-transform: capitalize;
-          font-size: .85em;
-          font-weight: 600;
-          line-height: 1.5em;
-          color: #212121;
-          text-decoration: none;">PREP: 20 min</p>
+          <p class="text-center-blogs">PREP: 20 min</p>
           </div>
       
         <div class=" col col-md-5">
           <img src="../imgFiles/timer.png" width="200px" height="150px" class="center-block img-fluid" /></a>
-          <p class="text-center" style="    text-transform: capitalize;
-          font-size: .85em;
-          font-weight: 600;
-          line-height: 1.5em;
-          color: #212121;
-          text-decoration: none;">Cook: 20 min </p>
+          <p class="text-center-blogs">Cook: 20 min </p>
           </div>
       
         <div class="col-md-auto col-md-5">
           <img src="../imgFiles/serving.png" width="200px" height="150px" data-modal="#modal-youtube" class="center-block img-fluid" style="cursor: pointer; " />
-          <p class="text-center" style="    text-transform: capitalize;
-          font-size: .85em;
-          font-weight: 600;
-          line-height: 1.5em;
-          color: #212121;
-          text-decoration: none;"> Servings: 12 Cookies </p>
+          <p class="text-center-blogs"> Servings: 12 Cookies </p>
         </div>
 
         <div class=" col col-md-5">
           <img src="../imgFiles/difficulty.jpg" width="200px" height="150px" class="center-block img-fluid" /></a>
-          <p class="text-center" style="    text-transform: capitalize;
-        font-size: .85em;
-        font-weight: 600;
-        line-height: 1.5em;
-        color: #212121;
-        text-decoration: none;">Rating: 4.3/5</p>
+          <p class="text-center-blogs">Rating: 4.3/5</p>
         </div>
     </div>
  
@@ -174,9 +153,10 @@
       <h2>Enjoy!</h2>
 
       <!--Share-->
+      <br>
       <div class="mainbox">
         <input type="checkbox" id="check">
-        <label for="check">Share</label>
+        <label id="share" for="check">Share</label>
         <div class="media-icons">
           <a href="#"><i class="fab fa-facebook"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
@@ -184,7 +164,8 @@
           <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-
+<br>
+<br>
 <!--Comment--> 
       <div class="hero-unit">
         <section id="app">
