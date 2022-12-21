@@ -1,0 +1,579 @@
+/* navbar and font css */
+
+p,h1,h3,li {
+  font-family: "Bebas Neue";
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+
+  
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    /*font-size: 30px;*/
+  }
+
+  .thumbnail {
+      object-fit: cover;
+      width: auto;
+      height: 200px;
+      
+  }
+
+  img.shadow {
+    max-width: 300px;
+    max-height: 300px;
+  }
+/* erin's css */
+
+  hr {
+    border: 0; 
+    border-top: 2px solid black;
+
+  }
+
+  .hero-unit {
+    margin-bottom: 25px;
+    font-family: "Bebas Neue", cursive;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    
+  }
+
+  .hero-unit h1 {
+    padding: 50px;
+    margin-bottom: 0;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color:  #5BBFDF;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  .hero-unit h2 {
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: rgb(191, 236, 251);
+    font-family: "Bebas Neue", cursive;
+
+  }
+
+  .hero-unit h3 {
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 1px; 
+    text-align: left;
+  }
+
+  .text-center-blogs {
+    text-transform: capitalize;
+    font-size: .85em;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #212121;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .comment {
+    display: block;
+    transition: all 1s;
+  }
+  .commentClicked {
+    min-height: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 5px 10px
+  }
+
+  .container textarea {
+    width: 100%;
+    border: none;
+    background: #E8E8E8;
+    padding: 5px 10px;
+    height: 70%;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 2px solid #016BA8;
+    transition: all 0.5s;
+    margin-top: 15px;
+  }
+
+  button.primaryContained {
+    background: #016ba8;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    margin-top: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+    transition: 1s all;
+    font-size: 40px;
+    border-radius: 5px;
+  }
+
+  button.primaryContained:hover {
+    background: #94d0dc;
+  }
+
+  .mainbox{
+    left: 47%;
+    position: absolute;
+  }
+
+  #share{
+    position: relative;
+    background: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    color: #0984e3;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+  }
+  label:hover{
+  letter-spacing: 1px;
+  }
+  label::before{
+    content: 'Cancel';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    border-radius: 35px;
+    opacity: 0;
+  }
+  #check{
+    display: none;
+  }
+  #check:checked ~ label::before{
+    opacity: 1;
+  }
+  .media-icons{
+    position: absolute;
+    left: 50%;
+    top: -120px;
+    transform: translateX(-50%);
+    background: #fff;
+    width: 140%;
+    height: 110%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 35px;
+    padding: 4px;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+  }
+  #check:checked ~ .media-icons{
+    opacity: 1;
+    pointer-events: auto;
+    top: -84px;
+  }
+  .media-icons::before{
+    content: '';
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 50%;
+    background: #fff;
+    bottom: -9px;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+  }
+  .media-icons a{
+    font-size: 22px;
+    color: #0984e3;
+    transition: all 0.3s ease;
+  }
+  .media-icons a:hover{
+    transform: translateY(-2px);
+  }
+  .media-icons a:nth-child(1):hover{
+    color: #426782;
+  }
+  .media-icons a:nth-child(2):hover{
+    color: #1da1f2;
+  }
+  .media-icons a:nth-child(3):hover{
+    color: #e1306c;
+  }
+  .media-icons a:nth-child(4):hover{
+    color: #ff0000;
+  }
+
+/* Maya's CSS */
+
+body {
+  font-family: "Bebas Neue";
+  font-size: 1.9rem;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+label {
+  color: #333;
+  
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+  background-color: #00539CFF;
+  border-color: #00539CFF;
+  
+  }
+
+.btn:hover {
+  border-color: #00539CFF;
+  background-color: #00539CFF;
+}
+
+.btn:focus {
+  border-color: #EEA47FFF;
+  background-color: #EEA47FFF;
+}
+.btn:active {
+  border-color: #EEA47FFF;
+  background-color: #EEA47FFF;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+
+}
+
+.card{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+/* Patrick's css */
+/*gallery css*/
+
+.articles {
+    
+  display: grid;
+  grid-auto-flow: column;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px; 
+}
+
+.articles2 {
+  display: grid;
+  grid-auto-flow: row;
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+/* The card element */
+article {
+  --img-scale: 1.001;
+  --title-color: black;
+  --link-icon-translate: -20px;
+  --link-icon-opacity: 0;
+
+  position: relative;
+  border-radius: 16px;
+  box-shadow: none;
+  background: #fff;
+  transform-origin: center;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+
+/* The link's ::after pseudo */
+article a::after {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline: 0;
+  cursor: pointer;
+}
+
+article p {
+  font-family: "Bebas Neue";
+}
+
+article h2 {
+  margin: 0 0 18px 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.9rem;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  transition: color 0.3s ease-out;
+}
+article figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+article img {
+  max-width: 100%;
+  transform-origin: center;
+  transform: scale(var(--img-scale));
+  transition: transform 0.4s ease-in-out;
+}
+
+article a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #28666e;
+}
+
+article a:focus {
+  outline: 1px dotted #28666e;
+}
+
+article a .icon {
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  transform: translateX(var(--link-icon-translate));
+  opacity: var(--link-icon-opacity);
+  transition: all 0.3s;
+}
+
+.article-body {
+  padding: 24px;
+}
+
+/* Hiding class, making content visible only to screen readers but not visually  */ 
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+/* Matches an article element that contains a hover or focus state */
+article:has(:hover, :focus) {
+  --img-scale: 1.1;
+  --title-color: #28666e;
+  --link-icon-translate: 0;
+  --link-icon-opacity: 1;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/* login/signup css */
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers 
+.container {
+  padding: 16px;
+}*/
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+  padding-right: 3px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+#profilePic {
+  height: 200px;
+  width: auto;
+}
+
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.container-signUp {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  background-color: #eee;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #eeee;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  padding: 25px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+#signUpButton{
+  text-align: center;
+
+}
